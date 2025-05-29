@@ -1,0 +1,53 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 830px;
+    
+    margin: auto;
+    padding: 0 302px 0 148px;
+}
+
+.intro__title {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    letter-spacing: 0%;
+    margin: 0;
+    padding-top: 92px;
+}
+
+.intro__quote {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    max-width: 738px;
+    max-height: 68px;
+    margin: 0;   
+    padding-top: 40px; 
+}
+
+.intro__quote-author {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: right;  
+    margin: 0;
+    padding-top: 10px;
+    padding-right: px;
+}
+
+.intro__content {
+   font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0%;
+    max-width: 722px;
+    max-height: 182px;
+    text-align: justify;
+}
