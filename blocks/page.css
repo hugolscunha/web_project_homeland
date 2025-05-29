@@ -1,6 +1,20 @@
 .page {
+    min-width: 1280px;
     background-color: #2A2C2F;
-    font-family: "Inter";
     color: #fff;
-    margin: auto;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .page{
+        min-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 768px) {
+    .page{
+        min-width: 320px;
+        margin: 0 auto;
+    }   
 }
