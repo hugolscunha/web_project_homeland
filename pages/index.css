@@ -6,20 +6,3 @@
 @import url("/blocks/intro.css");
 
 
-.footer {
-    display: flex;
-    margin: 0;
-    
-}
-
-.footer__copyright {
-
-    width: 166;
-    height: 16;
-    top: 1843px;
-    left: 556px;
-    margin: 0 auto;
-    
-    padding: 92px 0 24px 0;
-    
-}
