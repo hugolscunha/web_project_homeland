@@ -1,13 +1,13 @@
 .intro {
     margin: 92px 0 0 148px;
-    max-width: 830px;
-    max-height: 482px;    
+    width: 830px;
+     
 }
 
 .intro__title {
     margin: 0 0 40px 0;
-    max-width: 830px;
-    max-height: 116px;
+    width: 830px;
+    
     font-family: "Inter";
     font-weight: 900;
     font-size: 3.375rem;
@@ -36,7 +36,7 @@
 .intro__content {
     margin: 32px 0 0 0;
     max-width: 722px;
-    max-height: 182px;
+    
     font-family: "Inter";
     font-size: 1rem;
     font-weight: 400;
@@ -48,13 +48,13 @@
     .intro {
         margin: 92px auto 0;
         max-width: 720px;
-        max-height: 490px;   
+          
     }
 
     .intro__title {
         margin: 0 0 50px 0;
         max-width: 707px;
-        max-height: 98px;
+        
         font-size: 2.8125rem;
         line-height: 1.008889;
     }
@@ -64,13 +64,13 @@
     .intro {
         margin: 64px auto 0;
         max-width: 288px;
-        max-height: 878px;
+       
     }
 
     .intro__title {
         margin: 0 0 40px 0;
         max-width: 288px;
-        max-height: 140px;
+        
         font-size: 2rem;
         line-height: 1.09375;
     }
@@ -81,6 +81,6 @@
 
     .intro__content {
         width: 288px;
-        height: 442px;
+        
     }
 }
