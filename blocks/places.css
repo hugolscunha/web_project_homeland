@@ -150,12 +150,12 @@
 
     .places__content {
         margin: 0 auto;
+        width: 320px;
         grid-template-rows: repeat(4, auto);
         row-gap: 50px;
     }
 
     .places__content-item {
-        margin: 0 auto;
         grid-template-columns: 320px;
         grid-template-rows: auto auto auto auto;
         grid-template-areas: 
@@ -169,16 +169,23 @@
 
     .places__content-item-title{
         margin: 0 auto;
+        width: 288px;
         font-size: 2rem;
     }
 
     .places__content-item-image{
         margin: 0 auto;
-        width: 320px;
+        width: 100vw;
     }
 
     .places__content-item-button{
         margin: 0 auto;
+        width: 288px;
         font-size: 0.875rem;
+    }
+
+    .places__content-item-description p {
+        margin: 0 auto;
+        width: 288px;
     }
 }
